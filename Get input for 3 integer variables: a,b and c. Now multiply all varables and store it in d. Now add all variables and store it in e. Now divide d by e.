@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner shin = new Scanner(System.in);
+        System.out.println("Enter the value for a:");
+        int a = shin.nextInt();
+        System.out.println("Enter the value for b:");
+        int b = shin.nextInt();
+        System.out.println("Enter the value for c");
+        int c = shin.nextInt();
+        int d= a*b*c;
+        int e=a+b+c;
+        int f=d/e;
+        System.out.println("d: "+d);
+        System.out.println("e: "+e );
+        System.out.println("f: "+f);
+    }
+}
