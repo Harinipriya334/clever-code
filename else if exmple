@@ -1,0 +1,19 @@
+class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Number:");
+        int Mark = sc.nextInt();
+        if(Mark >=35 && Mark <= 59)
+        {
+            System.out.println("Video Game");
+        }
+        else if(Mark >=60 && Mark <90)
+        {
+            System.out.println("IPhone");
+        }
+        else if(Mark >=90)
+        {
+            System.out.println("MacBook");
+        }
+    }
+}
