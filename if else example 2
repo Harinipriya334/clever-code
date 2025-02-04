@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Meghana Died or Not");
+        String Meghana = sc.nextLine();
+        if(Meghana.equals("Died")){
+            System.out.println("suriya meets Varsha");
+        }
+        else{
+            System.out.println("suriya weds meghana");
+        }
+    }
+}
