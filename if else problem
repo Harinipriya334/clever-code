@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" In this Match RCB will Win or Loose!");
+        String RCB = sc.nextLine();
+        if(RCB.equals("Win"))
+        {
+            System.out.println("Ea sala cup Namadhey");
+        }
+        else{
+            System.out.println("valakam pola cup illa");
+        }
+
+        }
+    }
