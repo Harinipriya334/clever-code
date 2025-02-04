@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("What is the Color of the Traffic Light:");
+        String Color= sc.nextLine();
+        if(Color.equals("Red"))
+        {
+            System.out.println("Stop the Vehicle");
+        }
+
+        else if(Color.equals("Yellow")){
+            System.out.println("Get Ready");
+        }
+        else if(Color.equals("Green")){
+            System.out.println("Go");
+        }
+    }
+}
