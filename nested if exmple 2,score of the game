@@ -1,0 +1,22 @@
+mport java.util.Scanner;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("What is the Score in the Game:");
+        int Score = sc.nextInt();
+        if(Score<50)
+        {
+            System.out.println("You need Improvement");
+        }
+
+        if(Score >=50 && Score <= 70){
+            System.out.println("Good Job");
+        }
+        if(Score>70) {
+            System.out.print("Excellent Performance");
+
+        }
+
+
+    }
+}
