@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Mark:");
+        int Mark = sc.nextInt();
+        if(Mark >= 35){
+            System.out.println("successfully pass the exam");
+        }
+        else{
+            System.out.println("fail,try to get goodmark in nextime");
+        }
+    }
+}
