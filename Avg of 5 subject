@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the mark sub");
+        int s1 = sc.nextInt();
+        int s2 = sc.nextInt();
+        int s3 = sc.nextInt();
+        int s4 = sc.nextInt();
+        int s5 = sc.nextInt();
+        int total sum = s1+s2+s3+s4+s5;
+        int Average = total sum/5;
+        if(Average<=35)
+        {
+            System.out.println("You need Improvement");
+        }
+
+        else if(Average > 35){
+            System.out.println("Good to go");
+        }
+    }
+}
