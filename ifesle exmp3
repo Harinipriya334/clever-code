@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Income:");
+        int Income = sc.nextInt();
+        if(Income >= 7000){
+            System.out.println("Scholarship is Available");
+        }
+        else{
+            System.out.println("Not Eligible for Scholarship");
+        }
+    }
+}
