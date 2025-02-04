@@ -1,0 +1,20 @@
+class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the cafe name:");
+        String cafe = sc.nextLine();
+        String Item = sc.nextLine();
+        String cooldrinks = sc.nextLine();
+        if(cafe.equals("Creams"))
+        {
+            System.out.println("Ohh jolly");
+            if(Item.equals("burger")){
+                System.out.print("Tandoori burger");
+                if(cooldrinks.equals("pepsi")){
+                    System.out.print(" with pepsi");
+                }
+            }
+        }
+
+    }
+}
