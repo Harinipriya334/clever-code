@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 10 Numbers:");
+        int[] num = new int[10];
+        for(int i=0;i<=9;i++)
+        {
+            num[0]= 72;
+            num[1]= 48;
+            num[2]= 45;
+            num[3]= 76;
+            num[4]= 45;
+            num[5]= 34;
+            num[6]= 45;
+            num[7]= 75;
+            num[8]= 57;
+            num[9]= 98;
+
+
+        }
+        for(int i=0;i<=4;i++)
+        {
+            System.out.println(num[i]);
+
+        }
+
+    }
+}
