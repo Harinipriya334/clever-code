@@ -1,0 +1,21 @@
+class Main {
+    public static void main(String[] args) {
+        int evencount = 0;
+        int oddcount = 0;
+        for (int i = 1; i <= 100; i++) {
+
+            if (i % 2 == 0) {
+                evencount += 1;
+                System.out.println("Even num:"+i);
+            }
+            else{
+                oddcount +=1;
+                //System.out.println("Odd num:"+i);
+
+            }
+
+            }
+        System.out.println("Count of Even Number:"+evencount);
+        //System.out.println("Count of Odd Number:" +oddcount);
+    }
+}
