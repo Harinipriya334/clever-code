@@ -13,3 +13,10 @@ class Main {
                 System.out.println("Odd num:"+i);
 
             }
+
+            }
+        //System.out.println("Count of Even Number:"+evencount);
+        System.out.println("Count of Odd Number:" +oddcount);
+    }
+}
+
